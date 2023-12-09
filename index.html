@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cofffee House</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="img/logo.svg">
+</head>
+<body>
+  <header>
+    <div class="header">
+      <img class="header__logo" src="img/logo.svg" alt="logo">
+
+      <nav>
+          <ul>
+            <li><a href="#favorite-coffee">Favorite coffee</a></li>
+            <li><a href="#about-section">About</a></li>
+            <li><a href="#mobile-app">Mobile app</a></li>
+            <li><a href="#footer">Contact us</a></li>
+          </ul>
+      </nav>
+
+      <ul class="coffee-menu">
+        <li><a href="./pages/coffee-menu.html" style="text-decoration: none;"><h3>Menu</h3><img src="img/coffee-cup.svg" alt="coffe cup"></a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="header-section">
+      <div class="header-section__img">
+        <div class="link-block">
+          <p><span>Enjoy</span> premium coffee at our charming cafe</p>
+          <h4>With its inviting atmosphere and delicious coffee options, the Coffee House Resource is a 
+            popular destination for coffee lovers and those seeking a warm and inviting space to enjoy their 
+            favorite beverage.</h4>
+
+          <a href="./pages/coffee-menu.html" class="menu-link"><h5>Menu</h5></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="favorite-coffee" class="favorite-coffee">
+      <h3 class="choose-fav-coffee">Choose your <span>favorite</span> coffee</h3>
+      <div class="slider-block">
+        <button class="arrow-left"></button>
+          <div class="slider">
+            <div class="slide-1">
+              <img src="./img/coffee-slider-1.png" alt="slider-1">
+              <h3>S’mores Frappuccino</h3>
+              <p>This new drink takes an espresso and mixes it with brown sugar and cinnamon before being topped with oat milk.</p>
+              <h4>$5.50</h4>
+            </div>
+          </div>
+        <button class="arrow-right"></button>
+      </div>
+
+      <div class="pagination-block">
+        <div class="pagination-1 active"></div>
+        <div class="pagination-2"></div>
+        <div class="pagination-3"></div>
+      </div>
+    </section>
+
+    <section id="about-section" class="about-section">
+      <h5>Resource is <span>the perfect and cozy place</span> where you can enjoy a variety of hot beverages, relax, catch up with friends, or get some work done.</h5>
+
+      <div style="display: flex; justify-content: space-between;">
+        <div class="column-1">
+          <div class="parent">
+            <div class="child bg-one"></div>
+          </div>
+          <div class="parent2">
+            <div class="child2 bg-two"></div>
+          </div>
+        </div>
+  
+        <div class="column-2">
+          <div class="parent2">
+            <div class="child bg-three"></div>
+          </div>
+          <div class="parent">
+            <div class="child bg-four"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="mobile-app">
+      <div class="left-side">
+        <div class="left-side__block">
+          <h4><span>Download</span> our apps to start ordering</h4>
+          <p>Download the Resource app today and experience the comfort of ordering your favorite coffee from wherever you are</p>
+
+          <div class="buttons">
+            <a class="apple-button" href="#"><h5>Available on the</h5><h6>App Store</h6></a>
+            <a class="google-button" href="#"><h5>Available on</h5><h6>Google Play</h6></a>
+          </div>
+        </div>
+      </div>
+      <div class="rigth-side">
+        <img src="./img/mobile-app/mobile-screens.png" alt="mobile app">
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <div class="footer-container">
+      <div class="left-side">
+        <h1>Sip, Savor, Smile. <span>It’s coffee time!</span></h1>
+        <div class="social-media">
+          <div class="twiter"></div>
+          <div class="instagram"></div>
+          <div class="facebook"></div>
+        </div>
+      </div>
+
+      <div class="right-side">
+        <h4>Contact us</h4>
+        <ul>
+          <li><a href="https://www.google.com/maps/search/8558+Green+Rd,+Trafalgar,+IN,+USA/@38.6129369,-116.4853244,3z?entry=ttu" target="_blank"><img src="img/footer/position-icon.svg" alt="position">8558 Green Rd.,  LA</a></li>
+          <li><a href="tel:+16035550123"><img src="img/footer/phone-icon.svg" alt="phone">+1 (603) 555-0123</a></li>
+          <li><img src="img/footer/clock-icon.svg" alt="clock"> Mon-Sat: 9:00 AM – 23:00 PM</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
