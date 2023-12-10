@@ -339,7 +339,7 @@ footer .left-side {
   max-width: 530px;
 }
 
-footer .left-side h1 {
+footer .left-side h3 {
   color: #E1D4C9;
   font-family: Inter;
   font-size: 60px;
@@ -347,7 +347,7 @@ footer .left-side h1 {
   margin-bottom: 40px;
 }
 
-footer .left-side h1 span {
+footer .left-side h3 span {
   color: #B0907A;
   font-family: Inter;
   font-size: 60px;
