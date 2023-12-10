@@ -390,7 +390,6 @@ header {
 .child {
   width: 726px;
   height: 726px;
-  /* background-size: cover; */
   transition: all .5s;
   position: absolute;
   top: -68px;

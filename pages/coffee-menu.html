@@ -4,9 +4,157 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <title>House Menu</title>
+  <link rel="stylesheet" href="../css/house-menu.css">
+  <link rel="icon" type="image/x-icon" href="../img/logo.svg">
 </head>
 <body>
-  It is house menu page
+  <header>
+    <div class="header">
+      <a href="../index.html"><img class="header__logo" src="../img/logo.svg" alt="logo"></a>
+
+      <nav>
+          <ul>
+            <li><a href="#">Favorite coffee</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Mobile app</a></li>
+            <li><a href="#footer">Contact us</a></li>
+          </ul>
+      </nav>
+
+      <ul class="coffee-menu">
+        <li><a href="#" style="text-decoration: none;"><h3>Menu</h3><img src="../img/coffee-cup.svg" alt="coffe cup"></a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="coffee-tea-des">
+      <h1>Behind each of our cups hides an <span>amazing surprise</span></h1>
+
+      <div class="menu-block">
+        <div class="menu-buttons">
+          <button class="coffee-button active">Coffee</button>
+          <button class="tea-button">Tea</button>
+          <button class="dessert-button">Dessert</button>
+        </div>
+
+        <div class="menu">
+          <div class="item">
+            <div class="parent">
+              <img src="../img/house-menu/menu/coffee/coffee-1.png" alt="coffee-1">
+            </div>
+            <div class="about">
+              <h6>Irish coffee</h6>
+              <p>Fragrant black coffee with Jameson Irish whiskey and whipped milk</p>
+              <h3>$7.00</h3>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="parent">
+              <img src="../img/house-menu/menu/coffee/coffee-2.png" alt="coffee-1">
+            </div>
+            <div class="about">
+              <h6>Kahlua coffee</h6>
+              <p>Classic coffee with milk and Kahlua liqueur under a cap of frothed milk</p>
+              <h3>$7.00</h3>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="parent">
+              <img src="../img/house-menu/menu/coffee/coffee-3.png" alt="coffee-1">
+            </div>
+            <div class="about">
+              <h6>Honey raf</h6>
+              <p>Espresso with frothed milk, cream and aromatic honey</p>
+              <h3>$5.50</h3>
+            </div>
+          </div>
+
+          <div class="item" style="margin-right: 0;">
+            <div class="parent">
+              <img src="../img/house-menu/menu/coffee/coffee-4.png" alt="coffee-1">
+            </div>
+            <div class="about">
+              <h6>Ice cappuccino</h6>
+              <p>Cappuccino with soft thick foam in summer version with ice</p>
+              <h3>$5.00</h3>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="parent">
+              <img src="../img/house-menu/menu/coffee/coffee-5.png" alt="coffee-1">
+            </div>
+            <div class="about">
+              <h6>Espresso</h6>
+              <p>Classic black coffee</p>
+              <h3>$4.50</h3>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="parent">
+              <img src="../img/house-menu/menu/coffee/coffee-6.png" alt="coffee-1">
+            </div>
+            <div class="about">
+              <h6>Latte</h6>
+              <p>Espresso coffee with the addition of steamed milk and dense milk foam</p>
+              <h3>$5.50</h3>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="parent">
+              <img src="../img/house-menu/menu/coffee/coffee-7.png" alt="coffee-1">
+            </div>
+            <div class="about">
+              <h6>Latte macchiato</h6>
+              <p>Espresso with frothed milk and chocolate</p>
+              <h3>$5.50</h3>
+            </div>
+          </div>
+
+          <div class="item" style="margin-right: 0;">
+            <div class="parent">
+              <img src="../img/house-menu/menu/coffee/coffee-8.png" alt="coffee-1">
+            </div>
+            <div class="about">
+              <h6>Coffee with cognac</h6>
+              <p>Fragrant black coffee with cognac and whipped cream</p>
+              <h3>$6.50</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <div class="footer-container">
+      <div class="left-side">
+        <h3>Sip, Savor, Smile. <span>It’s coffee time!</span></h3>
+        <div class="social-media">
+          <div class="twiter"></div>
+          <div class="instagram"></div>
+          <div class="facebook"></div>
+        </div>
+      </div>
+
+      <div class="right-side">
+        <h4>Contact us</h4>
+        <ul>
+          <li><a href="https://www.google.com/maps/search/8558+Green+Rd,+Trafalgar,+IN,+USA/@38.6129369,-116.4853244,3z?entry=ttu" target="_blank"><img src="../img/footer/position-icon.svg" alt="position">8558 Green Rd.,  LA</a></li>
+          <li><a href="tel:+16035550123"><img src="../img/footer/phone-icon.svg" alt="phone">+1 (603) 555-0123</a></li>
+          <li><img src="../img/footer/clock-icon.svg" alt="clock"> Mon-Sat: 9:00 AM – 23:00 PM</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
