@@ -760,3 +760,13 @@ footer .right-side a:hover::before {
   width: 100%;
   margin-left: 0;
 }
+
+
+header .coffee-menu .burger-menu {
+  background-image: url("../img/responsive/768px/button-icon-burger.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 44px;
+  height: 44px;
+  display: none;
+}

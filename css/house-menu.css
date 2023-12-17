@@ -90,6 +90,11 @@ header {
 
 .header .coffee-menu li {
   width: 72px;
+  cursor: default;
+}
+
+.header .coffee-menu li a {
+  cursor: default;
 }
 
 .header .coffee-menu img {
