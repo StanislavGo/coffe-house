@@ -242,8 +242,7 @@ header {
 
 .favorite-coffee .slider {
   height: 640px;
-  width: 1152px;
-  min-width: 480px;
+  width: 480px;
 }
 
 .slider-block .arrow-left {
@@ -320,7 +319,7 @@ header {
 }
 
 .slider .slide-1 {
-  width: 1152px;
+  /* width: 1152px; */
   height: 640px;
 }
 
