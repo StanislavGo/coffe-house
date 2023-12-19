@@ -240,3 +240,61 @@
     left: -54%;
   }
 }
+
+@media screen and (max-width: 1390px) {
+  #mobile-app {
+    flex-wrap: wrap;
+    width: 89.7%;
+  }
+  .left-side,
+  .rigth-side {
+    margin: 0 auto;
+  }
+  #mobile-app .left-side__block {
+    width: 630px;
+    height: 342px;
+    margin-top: unset;
+  }
+  #mobile-app .left-side {
+    height: unset;
+  }
+  .rigth-side img {
+    margin-top: 90px;
+    margin-bottom: 100px;
+  }
+  #mobile-app .left-side__block {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .rigth-side img {
+    width: 348px;
+  }
+  #mobile-app .left-side__block .buttons {
+    flex-direction: column;
+    width: 202px;
+  }
+  .apple-button {
+    margin-bottom: 20px;
+  }
+  #mobile-app {
+    height: unset;
+  }
+  #mobile-app .left-side__block {
+    height: unset;
+  }
+  #mobile-app .left-side__block .buttons {
+    height: unset;
+  }
+  .rigth-side img {
+    margin-bottom: unset;
+  }
+  #mobile-app {
+    width: 91.6%;
+  }
+  #mobile-app .left-side__block h4,
+  #mobile-app .left-side__block span {
+    font-size: 32px;
+  }
+}
