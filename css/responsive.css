@@ -265,6 +265,12 @@
   #mobile-app .left-side__block {
     width: 100%;
   }
+  #mobile-app {
+    height: unset;
+  }
+  .rigth-side img {
+    margin-bottom: unset;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -296,5 +302,48 @@
   #mobile-app .left-side__block h4,
   #mobile-app .left-side__block span {
     font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 1390px) {
+  .footer-container .left-side,
+  .footer-container .rigth-side {
+    margin: unset;
+  }
+  footer .footer-container {
+    width: 85.3%;
+    flex-wrap: wrap;
+    padding: unset;
+    padding: 100px 0px 100px 60px;
+    height: unset;
+  }
+  #footer {
+    width: 90%;
+    height: unset;
+  }
+}
+
+@media screen and (max-width: 1380px) {
+  .footer-container .right-side {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  footer .footer-container {
+    padding: 60px 0px 60px 16px;
+  }
+  .footer-container .left-side h1,
+  .footer-container .left-side span {
+    font-size: 31.5px;
+  }
+  .footer-container .right-side {
+    margin-top: 40px;
+  }
+  footer .footer-container {
+    width: 91%;
+  }
+  .rigth-side img {
+    margin-top: 40px;
   }
 }
