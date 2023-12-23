@@ -190,11 +190,14 @@
 @media screen and (max-width: 769px) {
   .about-section .column-1,
   .about-section .column-2 {
-    width: 100%;
+    /* width: 100%; */
   }
   .column-1 .parent,
   .column-2 .parent {
-    width: 100%;
+    /* width: 100%; */
+  }
+  #mobile-app .left-side {
+    width: unset;
   }
 }
 
@@ -345,5 +348,56 @@
   }
   .rigth-side img {
     margin-top: 40px;
+  }
+}
+
+
+
+
+/* 
+  RESPONSIVE DESIGN FOR COFFEE MENU PAGE
+*/
+
+@media screen and (max-width: 1390px) {
+  .coffee-tea-des {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1352px) {
+  .item_block-to-hide {
+    display: none;
+  }
+  .coffee-tea-des .menu .item.kahlua {
+    margin-right: 0;
+  }
+  .menu-block .menu {
+    width: 660px;
+    margin: 0 auto;
+  }
+  .refresh-button {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .coffee-tea-des h1 {
+    width: 89.6%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .menu-block .menu {
+    width: 311px;
+  }
+  .menu-block .menu .item {
+    margin-right: 0px;
+  }
+  .coffee-tea-des h1,
+  .coffee-tea-des h1 span {
+    font-size: 32px;
+  }
+  .coffee-tea-des .menu-block .menu-buttons {
+    width: 345px;
   }
 }

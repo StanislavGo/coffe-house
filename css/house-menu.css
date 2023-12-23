@@ -245,10 +245,6 @@ header {
   menu-buttons
 */
 
-.coffee-tea-des .menu-block .menu-buttons {
-  margin-bottom: 10px;
-}
-
 .coffee-tea-des .menu .item {
   width: 310px;
   height: 506px;
@@ -471,4 +467,44 @@ footer .right-side a:hover::before {
   opacity: 1;
   width: 100%;
   margin-left: 0;
+}
+
+.item_block-to-hide {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.refresh-button {
+  background: none;
+  border: 0px;
+  background-image: url(../img/responsive/768px/open-new-items.svg);
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: none;
+}
+
+header .coffee-menu .burger-menu {
+  background-image: url("../img/responsive/768px/button-icon-burger.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 44px;
+  height: 44px;
+  display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+  .header .coffee-menu li:first-child {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .footer-container .left-side h3 {
+    font-size: 31.5px;
+  }
 }
