@@ -494,6 +494,71 @@ header .coffee-menu .burger-menu {
   width: 44px;
   height: 44px;
   display: none;
+  transition: .8s all;
+}
+
+header .coffee-menu .burger-menu.active {
+  background-image: url("../img/responsive/768px/button-icon-burger-active.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 44px;
+  height: 44px;
+  transition: .8s all;
+}
+
+.burger-block {
+  width: 100%;
+  height: 100%;
+  background: #E1D4C9;
+  position: fixed;
+  z-index: 1;
+  left: 100%;
+  transition: 0.3s;
+  display: block;
+  top: 100px;
+  opacity: 0;
+}
+
+.burger-block.active {
+  left: 0%;
+  position: absolute;
+  opacity: 1;
+}
+
+body.active {
+  overflow: hidden;
+}
+
+header {
+  overflow: hidden;
+}
+
+.burger-block ul li {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.burger-block ul li a {
+  color: #403F3D;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.go-to-ceffe-menu {
+  text-decoration: none;
+  color: #403F3D;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  font-family: Inter;
+  display: block;
+  width: 143px;
+  margin: 0 auto;
 }
 
 
