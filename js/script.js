@@ -19,3 +19,12 @@ burgerMenu.onclick = function() {
   openAndCloseBurger();
   onAndOffOverflowHidden();
 }
+
+const allLinksInBurger = document.querySelectorAll(".burger-block .link");
+allLinksInBurger.forEach((el) => {
+  el.onclick = function() {
+    changeBurgerIcon();
+    openAndCloseBurger();
+    onAndOffOverflowHidden();
+  }
+})
