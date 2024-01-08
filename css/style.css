@@ -330,6 +330,7 @@ header {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  transition: all 1s;
 }
 
 .pagination-block div.active {
@@ -337,6 +338,7 @@ header {
   height: 4px;
   border-radius: 100px;
   background: #665F55;
+  transition: all 1s;
 }
 
 .pagination-block div {
@@ -344,6 +346,7 @@ header {
   height: 4px;
   border-radius: 100px;
   background: #C1B6AD;
+  transition: all 1s;
 }
 
 
@@ -834,4 +837,21 @@ header {
   display: block;
   width: 143px;
   margin: 0 auto;
+}
+
+.slider {
+  overflow: hidden;
+  position: relative;
+  transition: all 1s;
+}
+
+.slider .elements {
+  display: flex;
+  position: absolute;
+  transition: all 1s;
+  left: 0px;
+}
+
+.slider .slide {
+  background: wheat;
 }
