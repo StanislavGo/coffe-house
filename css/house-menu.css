@@ -591,6 +591,22 @@ header {
   margin-right: 0px;
 }
 
+#item-to-hide-dessert {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.item_block-to-hide {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.coffee-tea-des .menu .item_block-to-hide .item {
+  margin-right: 0px;
+}
+
 
 @media screen and (max-width: 768px) {
   .header .coffee-menu li:first-child {

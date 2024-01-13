@@ -364,8 +364,19 @@
   }
 }
 
+@media screen and (min-width: 1352px) {
+  .refresh-button {
+    display: none !important;
+  }
+  .item_block-to-hide,
+  #item-to-hide-dessert {
+    display: flex !important;
+  }
+}
+
 @media screen and (max-width: 1352px) {
-  .item_block-to-hide {
+  .item_block-to-hide,
+  #item-to-hide-dessert {
     display: none;
   }
   .coffee-tea-des .menu .item.kahlua {
