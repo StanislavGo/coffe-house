@@ -485,6 +485,7 @@ footer .right-side a:hover::before {
   margin: 0 auto;
   margin-top: 40px;
   display: none;
+  cursor: pointer;
 }
 
 header .coffee-menu .burger-menu {
