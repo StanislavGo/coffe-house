@@ -561,6 +561,36 @@ header {
   margin: 0 auto;
 }
 
+.menu .coffee-section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu .tea-section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: none;
+}
+
+.menu .tea-section .item {
+  margin-right: 0px;
+}
+
+.menu .dessert-section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: none;
+}
+
+.menu .dessert-section .item {
+  margin-right: 0px;
+}
+
 
 @media screen and (max-width: 768px) {
   .header .coffee-menu li:first-child {
