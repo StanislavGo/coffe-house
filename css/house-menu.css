@@ -861,6 +861,7 @@ header {
 
 .addictives button {
   position: relative;
+  transition: all 0.6s;
 }
 
 .addictives .first::before {
