@@ -851,3 +851,8 @@ header {
   transition: all 0.6s;
   left: 0px;
 }
+
+.modal-for-coffee {
+  width: 768px;
+  padding: 16px;
+}

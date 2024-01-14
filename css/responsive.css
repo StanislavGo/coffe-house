@@ -688,3 +688,221 @@
     height: 518px;
   }
 }
+
+@media screen and (max-width: 1400px) {
+  .modal-for-coffee {
+    left: 19.5%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .modal-for-coffee {
+    left: 19%;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  .modal-for-coffee {
+    left: 18.5%;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .modal-for-coffee {
+    left: 18%;
+  }
+}
+
+@media screen and (max-width: 1215px) {
+  .modal-for-coffee {
+    left: 17.5%;
+  }
+}
+
+@media screen and (max-width: 1215px) {
+  .modal-for-coffee {
+    left: 17.5%;
+  }
+}
+
+@media screen and (max-width: 1190px) {
+  .modal-for-coffee {
+    left: 17%;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .modal-for-coffee {
+    left: 16.5%;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .modal-for-coffee {
+    left: 16%;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .modal-for-coffee {
+    left: 15.5%;
+  }
+}
+
+@media screen and (max-width: 1115px) {
+  .modal-for-coffee {
+    left: 15%;
+  }
+}
+
+@media screen and (max-width: 1095px) {
+  .modal-for-coffee {
+    left: 14.5%;
+  }
+}
+
+@media screen and (max-width: 1075px) {
+  .modal-for-coffee {
+    left: 14%;
+  }
+}
+
+@media screen and (max-width: 1055px) {
+  .modal-for-coffee {
+    left: 13.5%;
+  }
+}
+
+@media screen and (max-width: 1035px) {
+  .modal-for-coffee {
+    left: 13%;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .modal-for-coffee {
+    left: 12.5%;
+  }
+}
+
+@media screen and (max-width: 1005px) {
+  .modal-for-coffee {
+    left: 11.7%;
+  }
+}
+
+@media screen and (max-width: 985px) {
+  .modal-for-coffee {
+    left: 11.5%;
+  }
+}
+
+@media screen and (max-width: 965px) {
+  .modal-for-coffee {
+    left: 10.5%;
+  }
+}
+
+@media screen and (max-width: 955px) {
+  .modal-for-coffee {
+    left: 10%;
+  }
+}
+
+@media screen and (max-width: 945px) {
+  .modal-for-coffee {
+    left: 9.5%;
+  }
+}
+
+@media screen and (max-width: 935px) {
+  .modal-for-coffee {
+    left: 9%;
+  }
+}
+
+@media screen and (max-width: 925px) {
+  .modal-for-coffee {
+    left: 8.5%;
+  }
+}
+
+@media screen and (max-width: 915px) {
+  .modal-for-coffee {
+    left: 7.7%;
+  }
+}
+
+@media screen and (max-width: 905px) {
+  .modal-for-coffee {
+    left: 7%;
+  }
+}
+
+@media screen and (max-width: 895px) {
+  .modal-for-coffee {
+    left: 6.3%;
+  }
+}
+
+@media screen and (max-width: 885px) {
+  .modal-for-coffee {
+    left: 5.3%;
+  }
+}
+
+@media screen and (max-width: 875px) {
+  .modal-for-coffee {
+    left: 4.5%;
+  }
+}
+
+@media screen and (max-width: 865px) {
+  .modal-for-coffee {
+    left: 3.6%;
+  }
+}
+
+@media screen and (max-width: 855px) {
+  .modal-for-coffee {
+    left: 5%;
+    width: 85.5%;
+  }
+  .description .close-button {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 816px) {
+  .sizes .big {
+    margin-top: 8px;
+  }
+}
+
+@media screen and (max-width: 809px) {
+  .addictives .third {
+    margin-top: 8px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .modal-for-coffee .parent {
+    display: none;
+  }
+  .description {
+    width: 100%;
+    margin-left: unset;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .modal-for-coffee {
+    left: 4%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .modal-for-coffee {
+    left: 3%;
+  }
+}
